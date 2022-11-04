@@ -8,16 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <style>
-
-        h1, h3{
-            text-align:center;
-        }
-
-        h1{
-            margin-top : 5%;
-        }
-    </style>
 
     <%
         request.setCharacterEncoding("UTF-8");

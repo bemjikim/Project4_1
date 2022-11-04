@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a87fb96d-1fd6-4d06-a9e0-cddd983e8369" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/HGU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/form_ok.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a87fb96d-1fd6-4d06-a9e0-cddd983e8369" name="변경" comment="This is the recent version (2022/11/04)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/form_ok.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/form_ok.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,8 +180,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667502311233</updated>
-      <workItem from="1667502312610" duration="10960000" />
+      <workItem from="1667502312610" duration="11323000" />
     </task>
+    <task id="LOCAL-00001" summary="This is the recent version (2022/11/04)">
+      <created>1667551031168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667551031168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +205,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is the recent version (2022/11/04)" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is the recent version (2022/11/04)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
