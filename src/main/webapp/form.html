@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FormMaker</title>
+    <style>
+        body{
+            text-align : center;
+        }
+    </style>
+</head>
+<body>
+<fieldset>
+    <legend><h1>학생 정보 입력하기</h1></legend>
+
+    <form method = "POST" action="form_ok.jsp">
+
+        <label for="fname">이름:</label>
+        <input type="text" id="fname" name="fname" value="" placeholder="이름을 입력해 주세요."><br>
+
+        <label for="age">나이:</label>
+        <input type="text" id="age" name="age" value="" placeholder="나이를 입력해 주세요."><br>
+
+        <label for="s_num">학번:</label>
+        <input type="text" id="s_num" name="s_num" value="" placeholder="학번을 입력해 주세요."><br>
+
+        <label for="major">전공:</label>
+        <input type="text" id="major" name="major" value="" placeholder="전공을 입력해 주세요."><br><br>
+
+        좋아하는 음식 <br>
+        <input type="radio" id = "food1" name = "food1" value = "마라탕">
+        <label for="food1">마라탕</label><br>
+
+        <input type="radio" id = "food2" name = "food2" value = "치킨">
+        <label for="food2">치킨</label><br><br>
+
+        거주 기숙사<br>
+        <input type="checkbox" id = "rothem" name = "rothem" value = "로뎀">
+        <label for="rothem">로뎀</label><br>
+
+        <input type="checkbox" id = "bet" name = "bet" value = "벧엘">
+        <label for="bet">벧엘</label><br>
+
+        <input type="checkbox" id = "kyper" name = "kyper" value = "카이퍼">
+        <label for="kyper">카이퍼</label><br><br>
+
+        <label for = "schoolyear">학년 수</label>
+        <select id = "schoolyear" name = "schoolyear">
+            <option value = "1학년">1학년</option>
+            <option value = "2학년">2학년</option>
+            <option value = "3학년">3학년</option>
+            <option value = "4학년">4학년</option>
+        </select> <br>
+
+        <label for = "year_num">학기 수</label>
+        <select id = "year_num" name = "year_num">
+            <option value = "1학기">1학기</option>
+            <option value = "2학기">2학기</option>
+        </select> <br><br>
+
+        <label for="birthday">생년월일:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        각종 문의사항 적어주세요 :) <br>
+        <textarea name="complain" rows = "3" cols = "30" placeholder="본 개인정보는 다른 곳으로 활용되지 않으며 한동대학교의 과제물에 잠시 쓰입니다."></textarea><br><br>
+
+        <input type="submit" value="제출"><br><br>
+
+    </form>
+</fieldset>
+</body>
+</html>
